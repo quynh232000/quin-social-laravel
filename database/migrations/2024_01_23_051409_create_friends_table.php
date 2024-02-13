@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('friends', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
-            $table->unsignedBigInteger('friend_id');
+            $table->uuid('friend_id');
             $table->foreign('friend_id')->references('id')->on("users");
             $table->timestamp('accepted_ad')->nullable();
             $table->timestamps();

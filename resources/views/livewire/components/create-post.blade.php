@@ -52,12 +52,6 @@
 
 @push('js')
     <script>
-        $(window).on('alert', function(event) {
-            $(event.target[0]).val('')
-            toast({
-                message: event.detail[0].message,
-                type: event.detail[0].type
-            });
-        })
+       
     </script>
 @endpush

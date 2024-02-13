@@ -20,7 +20,7 @@ class User extends Authenticatable
     protected $table = "users";
     protected $fillable = [
         'uuid',
-        'fist_name',
+        'first_name',
         'last_name',
         'username',
         'email',
@@ -48,7 +48,10 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
-
+    public function is_friend()
+    {
+        return ((Friend::where(['user_id'=>$this->id])->orWhere('friend_id',$this->uuid)->first())->status  ?? "");
+    }
     /**
      * The attributes that should be cast.
      *

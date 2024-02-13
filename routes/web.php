@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Livewire\Peoples;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Home;
 
@@ -15,13 +16,16 @@ use App\Livewire\Home;
 |
 */
 
-Route::get('/', Home::class) ->middleware(['auth','verified','verifiedUser']);
+
 //
 
-Route::get('/dashboard', Home::class)->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', Home::class)->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+Route::middleware(['auth','verified','verifiedUser'])->group(function () {
+    Route::get('/', Home::class)->name('home');
+    Route::get('/explore', Peoples::class)->name('explore');
+    // Route::get('/video', [ProfileController::class, 'edit'])->name('profile.edit');
+    // Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });

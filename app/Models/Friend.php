@@ -12,9 +12,13 @@ class Friend extends Model
     protected $fillable = [
         'user_id',
         'friend_id',
+        'status',
         'accepted_ad'
     ];
     public function user() : BelongsTo {
         return $this->belongsTo(User::class,'user_id');
+    }
+    public function friend() : BelongsTo {
+        return $this->belongsTo(User::class,'friend_id');
     }
 }

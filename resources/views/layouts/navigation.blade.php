@@ -1,6 +1,6 @@
 <div class="nav-header bg-white shadow-xs border-0">
     <div class="nav-top">
-        <a href="{{ url('/home') }}">
+        <a href="{{ route('home') }}">
             <i
                 class=" display1-size me-2 ms-0 fa-brands fa-facebook"></i>
                 
@@ -20,14 +20,14 @@
     <form action="#" class="float-left header-search">
         <div class="form-group mb-0 icon-input">
             <i class="fa-solid fa-magnifying-glass font-sm text-grey-400"></i>
-            <input type="text" placeholder="Start typing to search.."
+            <input type="search" wire:model='search' placeholder="Start typing to search.."
                 class="bg-grey border-0 lh-32 pt-2 pb-2 ps-5 pe-3 font-xssss fw-500 rounded-xl w350 theme-dark-bg">
         </div>
     </form>
-    <a href="default.html" class="p-2 text-center ms-3 menu-icon center-menu-icon"><i
-            class=" font-lg alert-primary btn-round-lg theme-dark-bg text-current fa-solid f-center fa-house"></i></a>
-    <a href="default-storie.html" class="p-2 text-center ms-0 menu-icon center-menu-icon"><i
-            class="fa-solid fa-bolt font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 f-center"></i></a>
+    <a href="{{route('home')}}" class="p-2 text-center ms-3 menu-icon center-menu-icon"><i
+            class="{{request()->route()->getName() =='home' ?'alert-primary text-current theme-dark-bg' :"bg-greylight text-grey-500"}}  font-lg  btn-round-lg   fa-solid f-center fa-house"></i></a>
+    <a href="{{route('explore')}}" class="p-2 text-center  ms-0 menu-icon center-menu-icon"><i
+            class="{{request()->route()->getName() =='explore' ?'alert-primary text-current text-primary ' :"bg-greylight text-grey-500"}} fa-solid fa-bolt font-lg  btn-round-lg theme-dark-bg  f-center"></i></a>
     <a href="default-video.html" class="p-2 text-center ms-0 menu-icon center-menu-icon"><i
             class="fa-solid fa-video font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 f-center"></i></a>
     <a href="default-group.html" class="p-2 text-center ms-0 menu-icon center-menu-icon"><i
