@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->uuid('friend_id');
             $table->foreign('friend_id')->references('id')->on("users");
-            $table->timestamp('accepted_ad')->nullable();
+            $table->timestamp('accepted_at')->nullable();
             $table->timestamps();
         });
     }

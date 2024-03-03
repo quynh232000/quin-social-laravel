@@ -17,14 +17,15 @@ return new class extends Migration
             $table->string('first_name')->nullable();
             $table->string('last_name')->nullable();
             $table->string('username')->nullable();
+            $table->string('gender')->nullable();
             $table->string('email')->nullable()->unique();
             $table->string('mobile')->nullable()->unique();
             $table->string('mobile_verification_code')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->timestamp('mobile_verified_at')->nullable();
             $table->text('description')->nullable();
-            $table->string('thumbnial')->nullable();
-            $table->string('profile')->nullable();
+            $table->text('thumbnail')->nullable();
+            $table->text('profile')->nullable();
             $table->enum('relationship',['single','marred','enage']);
             $table->string('location')->nullable();
             $table->string('address')->nullable();

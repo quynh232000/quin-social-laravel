@@ -53,3 +53,22 @@ $(window).on("alert", function (event) {
         type: event.detail[0].type,
     });
 });
+window.onscroll = function(x) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight-0.5) {
+        
+        window.dispatchEvent(new CustomEvent('load-more'));
+       
+    }
+}
+
+$().ready(function () {
+    if($(".readNotifications").length){
+        $(".readNotifications").on('click',function() {
+            console.log(123);
+        })
+
+
+    }
+})
+
+

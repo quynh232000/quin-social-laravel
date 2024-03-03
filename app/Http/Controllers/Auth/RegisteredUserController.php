@@ -40,8 +40,6 @@ class RegisteredUserController extends Controller
             'mobile' => ['sometimes', 'string',  'max:255', 'unique:' . User::class],
             'profile' => ['required', 'image', 'mimes:png,jpg,jpeg', 'max:1024'],
             'gender' => ['required'],
-
-
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
         $profile = "";

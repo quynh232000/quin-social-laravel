@@ -15,9 +15,12 @@ class CreatePost extends Component
     public $message;
     public $images;
     public $video;
-    public function render()
+    public $groupid;
+    public $pageid;
+    public function mount($groupid =null,$pageid =null)
     {
-        return view('livewire.components.create-post');
+        $this->groupid = $groupid ;
+        $this->pageid = $pageid ;
     }
     public function createpost()
     {
@@ -27,12 +30,21 @@ class CreatePost extends Component
         DB::beginTransaction();
 
         try {
-            // create post 
-            $post = Post::create([
+            $newpost = [
                 'uuid' => Str::uuid(),
                 "user_id" => auth()->id(),
                 "content" => $this->message,
-            ]);
+            ];
+            if ($this->groupid) {
+                $newpost['group_id'] = $this->groupid;
+                $newpost['is_group_post'] = 1;
+            }
+            if ($this->pageid) {
+                $newpost['page_id'] = $this->pageid;
+                $newpost['is_page_post'] = 1;
+            }
+            // create post 
+            $post = Post::create($newpost);
             // if has media 
             if ($this->images) {
                 $images = [];
@@ -73,4 +85,9 @@ class CreatePost extends Component
             'message' => 'Your post has been published'
         ]);
     }
+    public function render()
+    {
+        return view('livewire.components.create-post');
+    }
+
 }

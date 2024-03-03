@@ -33,193 +33,163 @@
             <div class="row feed-body">
                 <div class="col-xl-8 col-xxl-9 col-lg-8">
 
-
-                    <div class="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
-                        <div class="owl-carousel category-card owl-theme overflow-hidden nav-none">
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-none rounded-xxxl bg-dark overflow-hidden mb-3 mt-3">
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <span class="btn-round-lg bg-white">
-                                                <i class="fa-solid fa-plus"></i>
-                                            </span>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-700 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                Add Story </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                                    style="background-image: url(images/s-1.jpg);">
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <figure class="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                                <img src="images/user-11.png" alt="image"
-                                                    class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                            </figure>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                Victor Exrixon </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                                    style="background-image: url(images/s-2.jpg);">
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <figure class="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                                <img src="images/user-12.png" alt="image"
-                                                    class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                            </figure>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                Surfiya Zakir </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3">
-                                    <video autoplay loop class="float-right w-100">
-                                        <source src="images/s-4.mp4" type="video/mp4">
-                                    </video>
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <figure class="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                                <img src="images/user-9.png" alt="image"
-                                                    class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                            </figure>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                Goria Coast </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3 me-1">
-                                    <video autoplay loop class="float-right w-100">
-                                        <source src="images/s-3.mp4" type="video/mp4">
-                                    </video>
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <figure class="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                                <img src="images/user-4.png" alt="image"
-                                                    class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                            </figure>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                Hurin Seary </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                                    style="background-image: url(images/s-5.jpg);">
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <figure class="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                                <img src="images/user-3.png" alt="image"
-                                                    class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                            </figure>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                David Goria </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div data-bs-toggle="modal" data-bs-target="#Modalstory"
-                                    class="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                                    style="background-image: url(images/s-6.jpg);">
-                                    <div class="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                                        <a href="#">
-                                            <figure
-                                                class="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                                <img src="images/user-2.png" alt="image"
-                                                    class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                            </figure>
-                                            <div class="clearfix"></div>
-                                            <h4
-                                                class="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                                Seary Victor </h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
+                    @livewire('components.stories')
                     @livewire('components.create-post')
 
                     {{-- post --}}
                     @forelse ($posts as $post)
                         <div class="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
                             <div class="card-body p-0 d-flex">
-                                <figure class="avatar me-3"><img
-                                        style="width:45px;height:45px;border-radius:50%;object-fit:cover"
-                                        src="{{ asset('storage/' . $post->user->profile) }}" alt="image"
-                                        class="shadow-sm rounded-circle w45"></figure>
-                                <h4 class="fw-700 text-grey-900 font-xssss mt-1">{{ $post->user->username }} <span
-                                        class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">{{ $post->created_at->diffForHumans() }}</span>
-                                </h4>
-                                <a href="#" class="ms-auto" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                    aria-expanded="false"><i
-                                        class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i></a>
+                                @if ($post->is_group_post == 1)
+                                    <a href="{{ route('group', $post->group->uuid) }}" class="avatar me-3"><img
+                                            style="width:45px;height:45px;border-radius:50%;object-fit:cover"
+                                            src="{{ asset('storage/' . $post->group->icon) }}" alt="image"
+                                            class="shadow-sm rounded-circle w45"></a>
+                                    <a href="{{ route('group', $post->group->uuid) }}"
+                                        class="fw-700 text-grey-900 font-xssss mt-1">{{ $post->group->name }}
+
+                                        <span
+                                            class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">{{ $post->created_at->diffForHumans() }}</span>
+                                    </a>
+                                    <a href="#" class="ms-auto" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i
+                                            class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i>
+                                    </a>
+                                @elseif($post->is_page_post == 1)
+                                    <a href="{{ route('page', $post->page->uuid) }}" class="avatar me-3"><img
+                                            style="width:45px;height:45px;border-radius:50%;object-fit:cover"
+                                            src="{{ asset('storage/' . $post->page->icon) }}" alt="image"
+                                            class="shadow-sm rounded-circle w45"></a>
+                                    <a href="{{ route('page', $post->page->uuid) }}"
+                                        class="fw-700 text-grey-900 font-xssss mt-1">{{ $post->page->name }}
+                                        <span
+                                            class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">{{ $post->created_at->diffForHumans() }}</span>
+                                    </a>
+                                    <a href="#" class="ms-auto" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i
+                                            class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i>
+                                    </a>
+                                @else
+                                    <a href="{{ route('user', $post->user->uuid) }}" class="avatar me-3"><img
+                                            style="width:45px;height:45px;border-radius:50%;object-fit:cover"
+                                            src="{{ asset('storage/' . $post->user->profile) }}" alt="image"
+                                            class="shadow-sm rounded-circle w45"></a>
+                                    <a href="{{ route('user', $post->user->uuid) }}"
+                                        class="fw-700 text-grey-900 font-xssss mt-1">{{ $post->user->first_name . ' ' . $post->user->last_name }}
+                                        <span
+                                            class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">{{ $post->created_at->diffForHumans() }}</span>
+                                    </a>
+                                    <a href="#" class="ms-auto" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i
+                                            class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i>
+                                    </a>
+                                @endif
                                 <div class="dropdown-menu dropdown-menu-end p-4 rounded-xxl border-0 shadow-lg"
-                                    aria-labelledby="dropdownMenu2">
-                                    <div class="card-body p-0 d-flex">
-                                        <i class="fa-solid fa-bookmark text-grey-500 me-3 font-lg"></i>
-                                        <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Save Link <span
-                                                class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Add this
-                                                to your saved items</span></h4>
-                                    </div>
+                                    style="width: 280px" aria-labelledby="dropdownMenu2">
+                                    {{-- save post --}}
+
+                                    @if (App\models\SavePost::where(['user_id' => auth()->id(), 'post_id' => $post->id])->exists())
+                                        <button wire:click = "unsavePost({{ $post->id }})"
+                                            class="card-body p-0 d-flex">
+                                            <i class="fa-solid fa-bookmark text-info me-3 font-me"></i>
+                                            <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4 text-left">Unsave Post
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Remove
+                                                    this
+                                                    to your saved post</span>
+                                            </h4>
+                                        </button>
+                                    @else
+                                        <button wire:click = "savePost({{ $post->id }})"
+                                            class="card-body p-0 d-flex">
+                                            <i class="fa-solid fa-bookmark text-grey-500 me-3 font-me"></i>
+                                            <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4 text-left">Save Post
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Add
+                                                    this
+                                                    to your saved post</span>
+                                            </h4>
+                                        </button>
+                                    @endif
                                     <div class="card-body p-0 d-flex mt-2">
-                                        <i class="fa-regular fa-bell text-grey-500 me-3 font-lg"></i>
+                                        <i class="fa-regular fa-bell text-grey-500 me-3 font-me"
+                                            style="min-with:26px !importain"></i>
                                         <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide Post <span
                                                 class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save to
                                                 your saved items</span></h4>
                                     </div>
-                                    <div class="card-body p-0 d-flex mt-2">
-                                        <i class="fa-solid fa-exclamation text-grey-500 me-3 font-lg"></i>
-                                        <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide all from Group
-                                            <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
-                                                to your saved items</span>
-                                        </h4>
-                                    </div>
-                                    <div class="card-body p-0 d-flex mt-2">
-                                        <i class="fa-solid fa-lock text-grey-500 me-3 font-lg"></i>
-                                        <h4 class="fw-600 mb-0 text-grey-900 font-xssss mt-0 me-4">Unfollow Group
-                                            <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
-                                                to your saved items</span>
-                                        </h4>
-                                    </div>
+
+
+                                    @if ($post->is_group_post == 1)
+                                        <button wire:click="hide_all_from('group',{{ $post->group->id }})"
+                                            class="card-body p-0 d-flex mt-2 text-left">
+                                            <i class="fa-solid fa-exclamation text-grey-500 me-3 font-me"
+                                                style="min-with:26px !importain"></i>
+                                            <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide all from
+                                                {{ $post->group->name }}
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
+                                                    to your saved items</span>
+                                            </h4>
+                                        </button>
+                                        <div class="card-body p-0 d-flex mt-2">
+                                            <i class="fa-solid fa-lock text-grey-500 me-3 font-me"
+                                                style="min-with:26px !importain"></i>
+                                            <h4 class="fw-600 mb-0 text-grey-900 font-xssss mt-0 me-4">Unfollow
+                                                {{ $post->group->name }}
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
+                                                    to your saved items</span>
+                                            </h4>
+                                        </div>
+                                    @elseif($post->is_page_post == 1)
+                                        <button wire:click="hide_all_from('page',{{ $post->page->id }})"
+                                            class="card-body p-0 d-flex mt-2 text-left">
+                                            <i class="fa-solid fa-exclamation text-grey-500 me-3 font-me"
+                                                style="min-with:26px !importain"></i>
+                                            <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide all from
+                                                {{ $post->page->name }}
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
+                                                    to your saved items</span>
+                                            </h4>
+                                        </button>
+                                        <div class="card-body p-0 d-flex mt-2">
+                                            <i class="fa-solid fa-lock text-grey-500 me-3 font-me"
+                                                style="min-with:26px !importain"></i>
+                                            <h4 class="fw-600 mb-0 text-grey-900 font-xssss mt-0 me-4">Unfollow
+                                                {{ $post->page->name }}
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
+                                                    to your saved items</span>
+                                            </h4>
+                                        </div>
+                                    @else
+                                        <button wire:click="hide_all_from('user',{{ $post->user->id }})"
+                                            class="card-body p-0 d-flex mt-2 text-left">
+                                            <i class="fa-solid fa-exclamation text-grey-500 me-3 font-me"
+                                                style="min-with:26px !importain"></i>
+                                            <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide all from
+                                                {{ $post->user->first_name . ' ' . $post->user->last_name }}
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
+                                                    to your saved items</span>
+                                            </h4>
+                                        </button>
+                                        <div class="card-body p-0 d-flex mt-2">
+                                            <i class="fa-solid fa-lock text-grey-500 me-3 font-me"
+                                                style="min-with:26px !importain"></i>
+                                            <h4 class="fw-600 mb-0 text-grey-900 font-xssss mt-0 me-4">Unfollow
+                                                {{ $post->user->first_name . ' ' . $post->user->last_name }}
+                                                <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
+                                                    to your saved items</span>
+                                            </h4>
+                                        </div>
+                                    @endif
+
+
                                 </div>
                             </div>
                             <div class="card-body p-0 me-lg-5">
-                                <p class="fw-500 text-grey-500 lh-26 font-xssss w-100">{{ $post->content }}
+                                <a class="text-grey-500"
+                                    href="{{ route('single-post', ['useruuid' => $post->user->uuid, 'postuuid' => $post->uuid]) }}">
+                                    <p class="fw-500 text-grey-500 lh-26 font-xssss w-100">{{ $post->content }}
+                                    </p>
                                     {{-- <a href="#" class="fw-600 text-primary ms-2">See more</a> --}}
-                                </p>
+                                </a>
                             </div>
                             <div class="card-body d-block p-0">
                                 <div class="row ps-2 pe-2">
@@ -271,17 +241,6 @@
                                             @endforeach
                                         @endif
                                     @endforeach
-                                    {{-- <div class="col-xs-4 col-sm-4 p-1"><a href="images/t-10.jpg"
-                                            data-lightbox="roadtrip"><img src="images/t-10.jpg"
-                                                class="rounded-3 w-100" alt="image"></a></div>
-                                    <div class="col-xs-4 col-sm-4 p-1"><a href="images/t-11.jpg"
-                                            data-lightbox="roadtrip"><img src="images/t-11.jpg"
-                                                class="rounded-3 w-100" alt="image"></a></div>
-                                    <div class="col-xs-4 col-sm-4 p-1"><a href="images/t-12.jpg"
-                                            data-lightbox="roadtrip" class="position-relative d-block"><img
-                                                src="images/t-12.jpg" class="rounded-3 w-100" alt="image"><span
-                                                class="img-count font-sm text-white ls-3 fw-600"><b>+2</b></span></a>
-                                    </div> --}}
                                 </div>
                             </div>
                             <div class="card-body d-flex p-0 mt-3">
@@ -363,14 +322,15 @@
                                     <h4 class="fw-700 font-xssss mt-4 text-grey-500 d-flex align-items-center mb-3">
                                         Copy Link</h4>
                                     <i class="feather-copy position-absolute right-35 mt-3 font-xs text-grey-500"></i>
-                                    <input type="text" value="https://socia.be/1rGxjoJKVF0"
+                                    <input type="text"
+                                        value="{{ route('single-post', ['useruuid' => $post->user->uuid, 'postuuid' => $post->uuid]) }}"
                                         class="bg-grey text-grey-500 font-xssss border-0 lh-32 p-2 font-xssss fw-600 rounded-3 w-100 theme-dark-bg">
                                 </div>
                             </div>
                             @error('comment')
                                 <span class="error text-danger">{{ $comment }}</span>
                             @enderror
-                            <form action="" method="post" class="my-2 position-relative "
+                            <form id="form-cmt" action="" method="post" class="my-2 position-relative "
                                 wire:submit.prevent="saveComment({{ $post->id }})">
                                 <input type="text" placeholder="Write your comment..." wire:model.lazy="comment"
                                     name="comment" class="form-control ">
@@ -383,636 +343,16 @@
                                         class="btn-round-sm font-xs text-primary bg-greylight mx-2 fa-solid fa-paper-plane"></i>
                                 </button>
                             </form>
+                            <script>
+                                $("#form-cmt").submit(function(e) {
+                                    e.preventDefault()
+                                    $("#form-cmt input").val("")
+                                })
+                            </script>
                         </div>
                     @empty
                         <h1 class="text-center text-danger">No post found!</h1>
                     @endforelse
-
-
-
-                    <div class="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-0">
-                        <div class="card-body p-0 d-flex">
-                            <figure class="avatar me-3 m-0"><img src="images/user-8.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-1">Goria Coast <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">2 hour ago</span>
-                            </h4>
-                            <a href="#" class="ms-auto" id="dropdownMenu6" data-bs-toggle="dropdown"
-                                aria-expanded="false"><i
-                                    class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i></a>
-                            <div class="dropdown-menu dropdown-menu-end p-4 rounded-xxl border-0 shadow-lg"
-                                aria-labelledby="dropdownMenu6">
-                                <div class="card-body p-0 d-flex">
-                                    <i class="fa-solid fa-bookmark text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Save Link <span
-                                            class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Add this
-                                            to your saved items</span></h4>
-                                </div>
-                                <div class="card-body p-0 d-flex mt-2">
-                                    <i class="fa-regular fa-bell text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide Post <span
-                                            class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save to
-                                            your saved items</span></h4>
-                                </div>
-                                <div class="card-body p-0 d-flex mt-2">
-                                    <i class="fa-solid fa-exclamation text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide all from Group
-                                        <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
-                                            to your saved items</span>
-                                    </h4>
-                                </div>
-                                <div class="card-body p-0 d-flex mt-2">
-                                    <i class="fa-solid fa-lock text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 mb-0 text-grey-900 font-xssss mt-0 me-4">Unfollow Group
-                                        <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
-                                            to your saved items</span>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p-0 me-lg-5">
-                            <p class="fw-500 text-grey-500 lh-26 font-xssss w-100">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat
-                                non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus
-                                <a href="#" class="fw-600 text-primary ms-2">See more</a>
-                            </p>
-                        </div>
-                        <div class="card-body d-flex p-0">
-                            <a href="#"
-                                class="emoji-bttn d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss me-2"><i
-                                    class="fa-solid fa-thumbs-up text-white bg-primary-gradiant me-1 btn-round-xs font-xss"></i>
-                                <i
-                                    class="fa-solid fa-heart text-white bg-red-gradiant me-2 btn-round-xs font-xss"></i>2.8K
-                                Like</a>
-                            <div class="emoji-wrap">
-                                <ul class="emojis list-inline mb-0">
-                                    <li class="emoji list-inline-item"><i class="em em---1"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-angry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-anguished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-astonished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-blush"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-clap"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-cry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-full_moon_with_face"></i></li>
-                                </ul>
-                            </div>
-                            <a href="#"
-                                class="d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-regular fa-comment text-dark text-grey-900 btn-round-sm font-lg"></i><span
-                                    class="d-none-xss">22 Comment</span></a>
-                            <a href="#" id="dropdownMenu31" data-bs-toggle="dropdown" aria-expanded="false"
-                                class="ms-auto d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-solid fa-share-nodes text-grey-900 text-dark btn-round-sm font-lg"></i><span
-                                    class="d-none-xs">Share</span></a>
-                            <div class="dropdown-menu dropdown-menu-end p-4 rounded-xxl border-0 shadow-lg"
-                                aria-labelledby="dropdownMenu31">
-                                <h4 class="fw-700 font-xss text-grey-900 d-flex align-items-center">Share <i
-                                        class="fa-solid fa-share-nodes ms-auto font-xssss btn-round-xs bg-greylight text-grey-900 me-2"></i>
-                                </h4>
-                                <div class="card-body p-0 d-flex">
-                                    <ul class="d-flex align-items-center justify-content-between mt-2">
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-facebook"><i
-                                                    class="font-xs ti-facebook text-white"></i></a></li>
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-twiiter"><i
-                                                    class="font-xs ti-twitter-alt text-white"></i></a></li>
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-linkedin"><i
-                                                    class="font-xs ti-linkedin text-white"></i></a></li>
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-instagram"><i
-                                                    class="font-xs ti-instagram text-white"></i></a></li>
-                                        <li><a href="#" class="btn-round-lg bg-pinterest"><i
-                                                    class="font-xs ti-pinterest text-white"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="card-body p-0 d-flex">
-                                    <ul class="d-flex align-items-center justify-content-between mt-2">
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-tumblr"><i
-                                                    class="font-xs ti-tumblr text-white"></i></a></li>
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-youtube"><i
-                                                    class="font-xs ti-youtube text-white"></i></a></li>
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-flicker"><i
-                                                    class="font-xs ti-flickr text-white"></i></a></li>
-                                        <li class="me-1"><a href="#" class="btn-round-lg bg-black"><i
-                                                    class="font-xs ti-vimeo-alt text-white"></i></a></li>
-                                        <li><a href="#" class="btn-round-lg bg-whatsup"><i
-                                                    class="font-xs feather-phone text-white"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h4 class="fw-700 font-xssss mt-4 text-grey-500 d-flex align-items-center mb-3">
-                                    Copy Link</h4>
-                                <i class="feather-copy position-absolute right-35 mt-3 font-xs text-grey-500"></i>
-                                <input type="text" value="https://socia.be/1rGxjoJKVF0"
-                                    class="bg-grey text-grey-500 font-xssss border-0 lh-32 p-2 font-xssss fw-600 rounded-3 w-100 theme-dark-bg">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
-                        <div class="owl-carousel category-card owl-theme overflow-hidden nav-none">
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/u-bg.jpg);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-11.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">Aliqa Macale </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/s-2.jpg);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-2.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">Seary Victor </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/s-6.jpg);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-3.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">John Steere </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/bb-16.png);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-4.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">Mohannad Zitoun </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/e-4.jpg);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-7.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">Studio Express </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/coming-soon.png);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-5.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">Hendrix Stamp </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div
-                                    class="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body position-relative h100 bg-image-cover bg-image-center"
-                                        style="background-image: url(images/bb-9.jpg);"></div>
-                                    <div class="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                                        <figure
-                                            class="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                            <img src="images/user-6.png" alt="image"
-                                                class="float-right p-1 bg-white rounded-circle w-100">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xsss mt-2 mb-1">Mohannad Zitoun </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-2">support@gmail.com
-                                        </p>
-                                        <span
-                                            class="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">LIVE</span>
-                                        <div class="clearfix mb-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
-                        <div class="card-body p-0 d-flex">
-                            <figure class="avatar me-3"><img src="images/user-8.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-1">Anthony Daugloi <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">2 hour ago</span>
-                            </h4>
-                            <a href="#" class="ms-auto" id="dropdownMenu5" data-bs-toggle="dropdown"
-                                aria-expanded="false"><i
-                                    class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i></a>
-                            <div class="dropdown-menu dropdown-menu-start p-4 rounded-xxl border-0 shadow-lg"
-                                aria-labelledby="dropdownMenu5">
-                                <div class="card-body p-0 d-flex">
-                                    <i class="fa-solid fa-bookmark text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Save Link <span
-                                            class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Add this
-                                            to your saved items</span></h4>
-                                </div>
-                                <div class="card-body p-0 d-flex mt-2">
-                                    <i class="fa-regular fa-bell text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide Post <span
-                                            class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save to
-                                            your saved items</span></h4>
-                                </div>
-                                <div class="card-body p-0 d-flex mt-2">
-                                    <i class="fa-solid fa-exclamation text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 text-grey-900 font-xssss mt-0 me-4">Hide all from Group
-                                        <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
-                                            to your saved items</span>
-                                    </h4>
-                                </div>
-                                <div class="card-body p-0 d-flex mt-2">
-                                    <i class="fa-solid fa-lock text-grey-500 me-3 font-lg"></i>
-                                    <h4 class="fw-600 mb-0 text-grey-900 font-xssss mt-0 me-4">Unfollow Group
-                                        <span class="d-block font-xsssss fw-500 mt-1 lh-3 text-grey-500">Save
-                                            to your saved items</span>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p-0 mb-3 rounded-3 overflow-hidden">
-                            <a href="default-video.html" class="video-btn">
-                                <video autoplay loop class="float-right w-100">
-                                    <source src="images/v-2.mp4" type="video/mp4">
-                                </video>
-                            </a>
-                        </div>
-                        <div class="card-body p-0 me-lg-5">
-                            <p class="fw-500 text-grey-500 lh-26 font-xssss w-100 mb-2">Lorem ipsum dolor sit
-                                amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non,
-                                feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed
-                                rhoncus <a href="#" class="fw-600 text-primary ms-2">See more</a></p>
-                        </div>
-                        <div class="card-body d-flex p-0">
-                            <a href="#"
-                                class="emoji-bttn d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss me-2"><i
-                                    class="fa-solid fa-thumbs-up text-white bg-primary-gradiant me-1 btn-round-xs font-xss"></i>
-                                <i
-                                    class="fa-solid fa-heart text-white bg-red-gradiant me-2 btn-round-xs font-xss"></i>2.8K
-                                Like</a>
-                            <div class="emoji-wrap">
-                                <ul class="emojis list-inline mb-0">
-                                    <li class="emoji list-inline-item"><i class="em em---1"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-angry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-anguished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-astonished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-blush"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-clap"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-cry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-full_moon_with_face"></i></li>
-                                </ul>
-                            </div>
-                            <a href="#"
-                                class="d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-regular fa-comment text-dark text-grey-900 btn-round-sm font-lg"></i><span
-                                    class="d-none-xss">22 Comment</span></a>
-                            <a href="#"
-                                class="ms-auto d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-solid fa-share-nodes text-grey-900 text-dark btn-round-sm font-lg"></i><span
-                                    class="d-none-xs">Share</span></a>
-                        </div>
-                    </div>
-
-                    <div class="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-0">
-                        <div class="card-body p-0 d-flex">
-                            <figure class="avatar me-3"><img src="images/user-8.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-1">Anthony Daugloi <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">2 hour ago</span>
-                            </h4>
-                            <a href="#" class="ms-auto"><i
-                                    class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i></a>
-                        </div>
-
-                        <div class="card-body p-0 me-lg-5">
-                            <p class="fw-500 text-grey-500 lh-26 font-xssss w-100">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat
-                                non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus
-                                <a href="#" class="fw-600 text-primary ms-2">See more</a>
-                            </p>
-                        </div>
-                        <div class="card-body d-block p-0 mb-3">
-                            <div class="row ps-2 pe-2">
-                                <div class="col-xs-6 col-sm-6 p-1"><a href="images/t-36.jpg"
-                                        data-lightbox="roadtri"><img src="images/t-21.jpg" class="rounded-3 w-100"
-                                            alt="image"></a></div>
-                                <div class="col-xs-6 col-sm-6 p-1"><a href="images/t-32.jpg"
-                                        data-lightbox="roadtri"><img src="images/t-22.jpg" class="rounded-3 w-100"
-                                            alt="image"></a></div>
-                            </div>
-                            <div class="row ps-2 pe-2">
-                                <div class="col-xs-4 col-sm-4 p-1"><a href="images/t-33.jpg"
-                                        data-lightbox="roadtri"><img src="images/t-23.jpg" class="rounded-3 w-100"
-                                            alt="image"></a></div>
-                                <div class="col-xs-4 col-sm-4 p-1"><a href="images/t-34.jpg"
-                                        data-lightbox="roadtri"><img src="images/t-24.jpg" class="rounded-3 w-100"
-                                            alt="image"></a></div>
-                                <div class="col-xs-4 col-sm-4 p-1"><a href="images/t-35.jpg" data-lightbox="roadtri"
-                                        class="position-relative d-block"><img src="images/t-25.jpg"
-                                            class="rounded-3 w-100" alt="image"><span
-                                            class="img-count font-sm text-white ls-3 fw-600"><b>+2</b></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body d-flex p-0">
-                            <a href="#"
-                                class="emoji-bttn d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss me-2"><i
-                                    class="fa-solid fa-thumbs-up text-white bg-primary-gradiant me-1 btn-round-xs font-xss"></i>
-                                <i
-                                    class="fa-solid fa-heart text-white bg-red-gradiant me-2 btn-round-xs font-xss"></i>2.8K
-                                Like</a>
-                            <div class="emoji-wrap">
-                                <ul class="emojis list-inline mb-0">
-                                    <li class="emoji list-inline-item"><i class="em em---1"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-angry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-anguished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-astonished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-blush"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-clap"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-cry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-full_moon_with_face"></i></li>
-                                </ul>
-                            </div>
-                            <a href="#"
-                                class="d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-regular fa-comment text-dark text-grey-900 btn-round-sm font-lg"></i><span
-                                    class="d-none-xss">22 Comment</span></a>
-                            <a href="#"
-                                class="ms-auto d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-solid fa-share-nodes text-grey-900 text-dark btn-round-sm font-lg"></i><span
-                                    class="d-none-xs">Share</span></a>
-                        </div>
-                    </div>
-
-                    <div class="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
-                        <div class="owl-carousel category-card owl-theme overflow-hidden nav-none">
-                            <div class="item">
-                                <div
-                                    class="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                                        <figure class="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                            <img src="images/user-11.png" alt="image"
-                                                class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xssss mt-3 mb-1">Richard Bowers </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-3">@macale343</p>
-                                        <a href="#"
-                                            class="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white">FOLLOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div
-                                    class="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                                        <figure class="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                            <img src="images/user-9.png" alt="image"
-                                                class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xssss mt-3 mb-1">David Goria </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-3">@macale343</p>
-                                        <a href="#"
-                                            class="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white">FOLLOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div
-                                    class="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                                        <figure class="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                            <img src="images/user-12.png" alt="image"
-                                                class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xssss mt-3 mb-1">Vincent Parks </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-3">@macale343</p>
-                                        <a href="#"
-                                            class="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white">FOLLOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div
-                                    class="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                                        <figure class="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                            <img src="images/user-8.png" alt="image"
-                                                class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xssss mt-3 mb-1">Studio Express </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-3">@macale343</p>
-                                        <a href="#"
-                                            class="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white">FOLLOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div
-                                    class="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                                    <div class="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                                        <figure class="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                            <img src="images/user-7.png" alt="image"
-                                                class="float-right p-0 bg-white rounded-circle w-100 shadow-xss">
-                                        </figure>
-                                        <div class="clearfix"></div>
-                                        <h4 class="fw-700 font-xssss mt-3 mb-1">Aliqa Macale </h4>
-                                        <p class="fw-500 font-xsssss text-grey-500 mt-0 mb-3">@macale343</p>
-                                        <a href="#"
-                                            class="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white">FOLLOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
-                        <div class="card-body p-0 d-flex">
-                            <figure class="avatar me-3"><img src="images/user-8.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-1">Anthony Daugloi <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">2 hour
-                                    ago</span></h4>
-                            <a href="#" class="ms-auto"><i
-                                    class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i></a>
-                        </div>
-                        <div class="card-body p-0 mb-3 rounded-3 overflow-hidden">
-                            <a href="default-video.html" class="video-btn">
-                                <video autoplay loop class="float-right w-100">
-                                    <source src="images/v-1.mp4" type="video/mp4">
-                                </video>
-                            </a>
-                        </div>
-                        <div class="card-body p-0 me-lg-5">
-                            <p class="fw-500 text-grey-500 lh-26 font-xssss w-100 mb-2">Lorem ipsum dolor sit
-                                amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non,
-                                feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed
-                                rhoncus <a href="#" class="fw-600 text-primary ms-2">See more</a></p>
-                        </div>
-                        <div class="card-body d-flex p-0">
-                            <a href="#"
-                                class="emoji-bttn d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss me-2"><i
-                                    class="fa-solid fa-thumbs-up text-white bg-primary-gradiant me-1 btn-round-xs font-xss"></i>
-                                <i
-                                    class="fa-solid fa-heart text-white bg-red-gradiant me-2 btn-round-xs font-xss"></i>2.8K
-                                Like</a>
-                            <div class="emoji-wrap">
-                                <ul class="emojis list-inline mb-0">
-                                    <li class="emoji list-inline-item"><i class="em em---1"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-angry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-anguished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-astonished"></i>
-                                    </li>
-                                    <li class="emoji list-inline-item"><i class="em em-blush"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-clap"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-cry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-full_moon_with_face"></i></li>
-                                </ul>
-                            </div>
-                            <a href="#"
-                                class="d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-regular fa-comment text-dark text-grey-900 btn-round-sm font-lg"></i><span
-                                    class="d-none-xss">22 Comment</span></a>
-                            <a href="#"
-                                class="ms-auto d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-solid fa-share-nodes text-grey-900 text-dark btn-round-sm font-lg"></i><span
-                                    class="d-none-xs">Share</span></a>
-                        </div>
-                    </div>
-
-                    <div class="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-0">
-                        <div class="card-body p-0 d-flex">
-                            <figure class="avatar me-3"><img src="images/user-8.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-1">Anthony Daugloi <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">2 hour
-                                    ago</span></h4>
-                            <a href="#" class="ms-auto"><i
-                                    class="fa-solid fa-ellipsis-vertical text-grey-900 btn-round-md bg-greylight font-xss"></i></a>
-                        </div>
-                        <div class="card-body p-0 me-lg-5">
-                            <p class="fw-500 text-grey-500 lh-26 font-xssss w-100 mb-2">Lorem ipsum dolor sit
-                                amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non,
-                                feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed
-                                rhoncus <a href="#" class="fw-600 text-primary ms-2">See more</a></p>
-                        </div>
-                        <div class="card-body d-block p-0 mb-3">
-                            <div class="row ps-2 pe-2">
-                                <div class="col-sm-12 p-1"><a href="images/t-30.jpg" data-lightbox="roadtr"><img
-                                            src="images/t-31.jpg" class="rounded-3 w-100" alt="image"></a></div>
-                            </div>
-                        </div>
-                        <div class="card-body d-flex p-0">
-                            <a href="#"
-                                class="emoji-bttn d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss me-2"><i
-                                    class="fa-solid fa-thumbs-up text-white bg-primary-gradiant me-1 btn-round-xs font-xss"></i>
-                                <i
-                                    class="fa-solid fa-heart text-white bg-red-gradiant me-2 btn-round-xs font-xss"></i>2.8K
-                                Like</a>
-                            <div class="emoji-wrap">
-                                <ul class="emojis list-inline mb-0">
-                                    <li class="emoji list-inline-item"><i class="em em---1"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-angry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-anguished"></i> </li>
-                                    <li class="emoji list-inline-item"><i class="em em-astonished"></i>
-                                    </li>
-                                    <li class="emoji list-inline-item"><i class="em em-blush"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-clap"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-cry"></i></li>
-                                    <li class="emoji list-inline-item"><i class="em em-full_moon_with_face"></i></li>
-                                </ul>
-                            </div>
-                            <a href="#"
-                                class="d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-regular fa-comment text-dark text-grey-900 btn-round-sm font-lg"></i><span
-                                    class="d-none-xss">22 Comment</span></a>
-                            <a href="#"
-                                class="ms-auto d-flex align-items-center fw-600 text-grey-900 text-dark lh-26 font-xssss"><i
-                                    class="fa-solid fa-share-nodes text-grey-900 text-dark btn-round-sm font-lg"></i><span
-                                    class="d-none-xs">Share</span></a>
-                        </div>
-                    </div>
-
 
                     <div class="card w-100 text-center shadow-xss rounded-xxl border-0 p-4 mb-3 mt-3">
                         <div class="snippet mt-2 ms-auto me-auto" data-title=".dot-typing">
@@ -1035,19 +375,20 @@
 
                             @forelse ($friend_requests as $friend)
                                 <div class="card-body d-flex pt-4 ps-4 pe-4 pb-0 border-top-xs bor-0">
-                                    <figure class="avatar me-3"><img src="{{asset('storage/'.$friend->profile)}}"
-                                        style="wi45px;height:45px;border-radius:50%;object-fit:cover"
-                                        alt="image"
-                                            class="shadow-sm rounded-circle w45"></figure>
+                                    <figure class="avatar me-3"><img src="{{ asset('storage/' . $friend->profile) }}"
+                                            style="wi45px;height:45px;border-radius:50%;object-fit:cover"
+                                            alt="image" class="shadow-sm rounded-circle w45"></figure>
                                     <h4 class="fw-700 text-grey-900 font-xssss mt-1">
                                         {{ $friend->first_name . ' ' . $friend->last_name }} <span
-                                            class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">12 mutual
+                                            class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">{{ 0 }}
+                                            mutual
                                             friends</span></h4>
                                 </div>
-                                <div class="card-body d-flex align-items-center pt-0 ps-4 pe-4 pb-4">
-                                    <button wire:click='acceptfriend({{$friend->user_id}})'
+                                <div
+                                    class="card-body d-flex align-items-center justify-content-center pt-0 ps-4 pe-4 pb-4">
+                                    <button wire:click='acceptfriend({{ $friend->user_id }})'
                                         class="p-2 lh-20 w100 bg-primary-gradiant me-2 text-white text-center font-xssss fw-600 ls-1 rounded-xl">Confirm</button>
-                                    <button wire:click="rejectfriend({{$friend->user_id}})"
+                                    <button wire:click="rejectfriend({{ $friend->user_id }})"
                                         class="p-2 lh-20 w100 bg-grey text-grey-800 text-center font-xssss fw-600 ls-1 rounded-xl">Delete</button>
                                 </div>
                             @empty
@@ -1061,96 +402,167 @@
                     @endif
 
                     <div class="card w-100 shadow-xss rounded-xxl border-0 p-0 ">
-                        <div class="card-body d-flex align-items-center p-4 mb-0">
-                            <h4 class="fw-700 mb-0 font-xssss text-grey-900">Confirm Friend</h4>
-                            <a href="default-member.html" class="fw-600 ms-auto font-xssss text-primary">See
-                                all</a>
-                        </div>
-                        <div class="card-body bg-transparent-card d-flex p-3 bg-greylight ms-3 me-3 rounded-3">
-                            <figure class="avatar me-2 mb-0"><img src="images/user-7.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-2">Anthony Daugloi <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">12 mutual
-                                    friends</span></h4>
-                            <a href="#"
-                                class="btn-round-sm bg-white text-grey-900 feather-chevron-right font-xss ms-auto mt-2"></a>
-                        </div>
-                        <div class="card-body bg-transparent-card d-flex p-3 bg-greylight m-3 rounded-3"
-                            style="margin-bottom: 0 !important;">
-                            <figure class="avatar me-2 mb-0"><img src="images/user-8.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-2"> David Agfree <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">12 mutual
-                                    friends</span></h4>
-                            <a href="#"
-                                class="btn-round-sm bg-white text-grey-900 fa-solid fa-flus font-xss ms-auto mt-2"></a>
-                        </div>
-                        <div class="card-body bg-transparent-card d-flex p-3 bg-greylight m-3 rounded-3">
-                            <figure class="avatar me-2 mb-0"><img src="images/user-12.png" alt="image"
-                                    class="shadow-sm rounded-circle w45"></figure>
-                            <h4 class="fw-700 text-grey-900 font-xssss mt-2">Hugury Daugloi <span
-                                    class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">12 mutual
-                                    friends</span></h4>
-                            <a href="#"
-                                class="btn-round-sm bg-white text-grey-900 fa-solid fa-flus font-xss ms-auto mt-2"></a>
+                        <div class="card w-100 shadow-xss rounded-xxl border-0 p-0">
+                            <div class="card-body d-flex align-items-center p-4 mb-0">
+                                <h4 class="fw-700 mb-0 font-xssss text-grey-900">
+                                    Suggest Friends
+                                </h4>
+                                <a href="{{ route('explore') }}" class="fw-600 ms-auto font-xssss text-primary">See
+                                    all</a>
+                            </div>
+
+                            @forelse ($suggested_users as $item)
+                                <div class="card-body bg-transparent-card d-flex p-3 bg-greylight ms-3 me-3 rounded-3">
+                                    <a href="{{ route('user', $item->uuid) }}" class="avatar me-2 mb-0">
+                                        <img src="{{ asset('storage/' . $item->profile) }}" alt="image"
+                                            class="shadow-sm rounded-circle w45 img-border-45">
+                                    </a>
+                                    <a href="{{ route('user', $item->uuid) }}"
+                                        class="fw-700 text-grey-900 font-xssss mt-2">
+                                        {{ $item->first_name . ' ' . $item->last_name }}
+                                        <span
+                                            class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">{{ $item->mutual_friends() ?? 0 }}
+                                            mutual
+                                            friends</span>
+                                    </a>
+                                    <button wire:click="addfriend('{{ $item->uuid }}')" class="ms-auto mt-2">
+                                        <i
+                                            class="btn-round-sm bg-white text-grey-900 fa-solid fa-user-plus font-xss ms-auto mt-2"></i>
+                                    </button>
+                                </div>
+                            @empty
+                                <div class="text-center text-danger">No user suggestion fund!</div>
+                            @endforelse
+
+
+                            {{-- <div class="card-body bg-transparent-card d-flex p-3 bg-greylight m-3 rounded-3"
+                                style="margin-bottom: 0 !important">
+                                <figure class="avatar me-2 mb-0">
+                                    <img src="images/user-8.png" alt="image" class="shadow-sm rounded-circle w45">
+                                </figure>
+                                <h4 class="fw-700 text-grey-900 font-xssss mt-2">
+                                    David Agfree
+                                    <span class="d-block font-xssss fw-500 mt-1 lh-3 text-grey-500">12 mutual
+                                        friends</span>
+                                </h4>
+                                <i
+                                    class="btn-round-sm bg-white text-grey-900 fa-solid fa-user-minus font-xss ms-auto mt-2"></i>
+                            </div> --}}
+
                         </div>
 
                     </div>
 
                     <div class="card w-100 shadow-xss rounded-xxl border-0 mb-3 mt-3">
                         <div class="card-body d-flex align-items-center p-4">
-                            <h4 class="fw-700 mb-0 font-xssss text-grey-900">Suggest Group</h4>
-                            <a href="default-group.html" class="fw-600 ms-auto font-xssss text-primary">See
+                            <h4 class="fw-700 mb-0 font-xssss text-grey-900">Suggest Groups</h4>
+                            <a href="{{ route('groups') }}" class="fw-600 ms-auto font-xssss text-primary">See
                                 all</a>
                         </div>
-                        <div class="card-body d-flex pt-4 ps-4 pe-4 pb-0 overflow-hidden border-top-xs bor-0">
-                            <img src="images/e-2.jpg" alt="img" class="img-fluid rounded-xxl mb-2">
-                        </div>
-                        <div class="card-body dd-block pt-0 ps-4 pe-4 pb-4">
-                            <ul class="memberlist mt-1 mb-2 ms-0 d-block">
-                                <li class="w20"><a href="#"><img src="images/user-6.png" alt="user"
-                                            class="w35 d-inline-block" style="opacity: 1;"></a></li>
-                                <li class="w20"><a href="#"><img src="images/user-7.png" alt="user"
-                                            class="w35 d-inline-block" style="opacity: 1;"></a></li>
-                                <li class="w20"><a href="#"><img src="images/user-8.png" alt="user"
-                                            class="w35 d-inline-block" style="opacity: 1;"></a></li>
-                                <li class="w20"><a href="#"><img src="images/user-3.png" alt="user"
-                                            class="w35 d-inline-block" style="opacity: 1;"></a></li>
-                                <li class="last-member"><a href="#"
-                                        class="bg-greylight fw-600 text-grey-500 font-xssss w35 ls-3 text-center"
-                                        style="height: 35px; line-height: 35px;">+2</a></li>
-                                <li class="ps-3 w-auto ms-1"><a href="#"
-                                        class="fw-600 text-grey-500 font-xssss">Member apply</a></li>
-                            </ul>
-                        </div>
 
+                        @forelse ($suggested_groups as $group)
+                            <a href="{{ route('group', $group->uuid) }}"
+                                class="card-body d-flex pt-4 ps-4 pe-4 pb-0 overflow-hidden border-top-xs bor-0">
+                                <img src="{{ asset('storage/' . $group->thumbnail) }}" alt="img"
+                                    class="img-fluid rounded-xxl mb-2">
+                            </a>
+                            <a href="{{ route('group', $group->uuid) }}" class="px-4 fw-600 text-grey-700 font-xsss">
+                                {{ $group->name }}
+                            </a>
+                            <div class="card-body dd-block pt-0 ps-4 pe-4 pb-4">
+                                <ul class="memberlist mt-1 mb-2 ms-0 d-block">
+                                    @php
+                                        $countGroups =
+                                            App\Models\GroupMember::where('group_id', $group->id)->count() ?? 0;
+                                    @endphp
+                                    @if ($countGroups > 3)
+                                        @foreach (App\Models\GroupMember::with('user')->where('group_id', $group->id)->limit(3)->get() as $item)
+                                            <li class="img-border-35"><a class="img-border-35"
+                                                    href="{{ route('user', $item->user->uuid) }}"><img
+                                                        src="{{ asset('storage/' . $item->user->profile) }}"
+                                                        alt="user" class="w35 d-inline-block img-border-35"
+                                                        style="opacity: 1;"></a></li>
+                                        @endforeach
+                                        <li class="last-member"><a href="{{ route('group', $group->uuid) }}"
+                                                class="bg-greylight fw-600 text-grey-500 font-xssss w35 ls-3 text-center"
+                                                style="height: 35px; line-height: 35px;">+
+                                                {{ $countGroups - 3 }}
+                                            </a></li>
+                                    @elseif($countGroups == 0)
+                                        <li class="last-member"><a href="#"
+                                                class="bg-greylight fw-600 text-grey-500 font-xssss w35 ls-3 text-center"
+                                                style="height: 35px; line-height: 35px;">
+                                                0
+                                            </a></li>
+                                    @else
+                                        @foreach (App\Models\GroupMember::with('user')->where('group_id', $group->id)->get() as $item)
+                                            <li class=" img-border-35"><a
+                                                    href="{{ route('user', $item->user->uuid) }}"
+                                                    class="img-border-35"><img
+                                                        src="{{ asset('storage/' . $item->user->profile) }}"
+                                                        alt="user" class=" d-inline-block img-border-35"
+                                                        style="opacity: 1;"></a></li>
+                                        @endforeach
+                                    @endif
 
+                                    <li class="ps-3 w-auto ms-1"><a href="#"
+                                            class="fw-400 text-grey-500 font-xssss">Members</a></li>
+                                </ul>
+                                @if (App\models\GroupMember::where(['user_id' => auth()->id(), 'group_id' => $group->id])->exists())
+                                    <button wire:click='leave({{ $group->id }})'
+                                        class="p-2 lh-28 w-100 bg-grey text-grey-800 text-center font-xssss fw-700 rounded-xl bg-danger  text-white ">
+                                        <i class="fa-solid fa-arrow-up-from-bracket font-xss me-2"></i>
+
+                                        LEAVE</button>
+                                @else
+                                    <button wire:click='join({{ $group->id }})'
+                                        class="p-2 lh-28 w-100 bg-grey text-grey-800 text-center font-xssss fw-700 rounded-xl  text-white ">
+                                        <i class="fa-solid fa-right-to-bracket font-xss me-2"></i>
+                                        JOIN</button>
+                                @endif
+                            </div>
+                        @empty
+                            <div class="text-danger text-center">No page fund!</div>
+                        @endforelse
 
                     </div>
 
+
+
                     <div class="card w-100 shadow-xss rounded-xxl border-0 mb-3">
                         <div class="card-body d-flex align-items-center p-4">
-                            <h4 class="fw-700 mb-0 font-xssss text-grey-900">Suggest Pages</h4>
-                            <a href="default-group.html" class="fw-600 ms-auto font-xssss text-primary">See
+                            <h4 wire:click="likepage(2)" class="fw-700 mb-0 font-xssss text-grey-900">Suggest Pages
+                            </h4>
+                            <a href="{{ route('pages') }}" class="fw-600 ms-auto font-xssss text-primary">See
                                 all</a>
                         </div>
-                        <div class="card-body d-flex pt-4 ps-4 pe-4 pb-0 overflow-hidden border-top-xs bor-0">
-                            <img src="images/g-2.jpg" alt="img" class="img-fluid rounded-xxl mb-2">
-                        </div>
-                        <div class="card-body d-flex align-items-center pt-0 ps-4 pe-4 pb-4">
-                            <a href="#"
-                                class="p-2 lh-28 w-100 bg-grey text-grey-800 text-center font-xssss fw-700 rounded-xl"><i
-                                    class="feather-external-link font-xss me-2"></i> Like Page</a>
-                        </div>
+                        @forelse ($suggested_pages as $page)
+                            <a href="{{ route('page', $page->uuid) }}"
+                                class="card-body d-flex pt-4 ps-4 pe-4 pb-0 overflow-hidden border-top-xs bor-0">
+                                <img src="{{ asset('storage/' . $page->thumbnail) }}" alt="img"
+                                    class="img-fluid rounded-xxl mb-2">
+                            </a>
+                            <div class="card-body d-flex align-items-center pt-0 ps-4 pe-4 pb-4">
 
-                        <div class="card-body d-flex pt-0 ps-4 pe-4 pb-0 overflow-hidden">
-                            <img src="images/g-3.jpg" alt="img" class="img-fluid rounded-xxl mb-2 bg-lightblue">
-                        </div>
-                        <div class="card-body d-flex align-items-center pt-0 ps-4 pe-4 pb-4">
-                            <a href="#"
-                                class="p-2 lh-28 w-100 bg-grey text-grey-800 text-center font-xssss fw-700 rounded-xl"><i
-                                    class="feather-external-link font-xss me-2"></i> Like Page</a>
-                        </div>
+                                @if (App\models\PageLike::where(['user_id' => auth()->id(), 'page_id' => $page->id])->exists())
+                                    <button wire:click='unlikepage(<?= $page->id ?>)'
+                                        class="p-2 lh-28 w-100 bg-grey text-grey-800 text-center font-xssss fw-700 rounded-xl bg-danger  text-white">
+                                        <i class="fa-solid fa-thumbs-down font-xss me-2"></i>
+
+                                        UNLIKE</button>
+                                @else
+                                    <button wire:click='likepage(<?= $page->id ?>)'
+                                        class="p-2 lh-28 w-100 bg-grey text-grey-800 text-center font-xssss fw-700 rounded-xl  text-white">
+                                        <i class="fa-solid fa-thumbs-up font-xss me-2"></i>
+                                        LIKE</button>
+                                @endif
+
+
+
+                            </div>
+                        @empty
+                            <div class="text-center text-danger">No page fund!</div>
+                        @endforelse
 
 
                     </div>

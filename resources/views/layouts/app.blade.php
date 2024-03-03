@@ -15,21 +15,27 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    
+
 
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo-no-text.png') }}">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/emoji.css') }}">
-    
+
     <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.1/feather.min.js" integrity="sha512-4lykFR6C2W55I60sYddEGjieC2fU79R7GUtaqr3DzmNbo0vSaO1MfUjMoTFYYuedjfEix6uV9jVTtRCSBU/Xiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.1/feather.min.js"
+        integrity="sha512-4lykFR6C2W55I60sYddEGjieC2fU79R7GUtaqr3DzmNbo0vSaO1MfUjMoTFYYuedjfEix6uV9jVTtRCSBU/Xiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/feather.css') }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> --}}
     @livewireStyles
@@ -50,9 +56,9 @@
         @include('layouts.left-navigation')
         <!-- navigation left -->
         <!-- main content -->
-       <main>
-        @yield('content')
-       </main>
+        <main>
+            @yield('content')
+        </main>
         <!-- main content -->
 
         <!-- right chat -->
@@ -280,18 +286,56 @@
             </form>
         </div>
 
+
     </div>
 
     {{-- {{$slot}} --}}
+    {{-- modal story --}}
+    @foreach (App\models\Story::with('user')->where('created_at', '>=', now()->subDay())->latest()->get()->unique('user_id') as $story)
+        <div class="modal bottom side fade modal-story" id="story{{ $story->user->id }}" tabindex="-1"
+            role="dialog" style=" overflow-y: auto;">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content border-0 bg-transparent">
+                    <button type="button" class="close bg-gray-900 mt-0 position-absolute top--30 right--10"
+                        data-dismiss="modal" aria-label="Close"><i
+                            class="fa-solid fa-xmark text-white font-xs"></i></button>
+
+                    <div class="modal-body p-0">
+                        <div class="card w-100 border-0 rounded-3 overflow-hidden bg-gradiant-bottom bg-gradiant-top">
+                            <div class="owl-carousel owl-theme dot-style3 story-slider owl-dot-nav nav-none">
+                                @foreach (json_decode($story->story) as $image)
+                                    <div class="item"><img src="{{ asset('storage/' . $image) }}" alt="image">
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div class="form-group mt-3 mb-0 p-3 position-absolute bottom-0 z-index-1 w-100">
+
+                            <input type="text"
+                                class="style2-input w-100 bg-transparent border-light-md p-3 pe-5 font-xssss fw-500 text-white input-story"
+                                placeholder="Write Comments..">
+
+                            <i class="fa-regular fa-paper-plane text-white font-md text-white position-absolute"
+                                style="bottom: 35px;right:30px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    @endforeach
+
+    {{-- livewire --}}
+    {{-- <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script> --}}
+    {{-- <script src="https://cdn.jsdelivr.net/npm/livewire@2.6.2/dist/livewire.min.js" defer></script> --}}
 
 
     <script src="{{ asset('js/main.js') }}"></script>
 
     <script src="{{ asset('js/plugin.js') }}"></script>
-    
+
     <script src="{{ asset('js/lightbox.js') }}"></script>
     <script src="{{ asset('js/scripts.js') }}"></script>
-   
+
     @stack('js')
 </body>
 

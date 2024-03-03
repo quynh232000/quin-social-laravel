@@ -11,6 +11,7 @@ class GroupMember extends Model
     use HasFactory;
     protected $fillable = [
         "user_id",
+        "status",
         "group_id"
     ];
     public function user() : BelongsTo {

@@ -13,8 +13,10 @@ class Friend extends Model
         'user_id',
         'friend_id',
         'status',
-        'accepted_ad'
+        'accepted_at'
     ];
+
+    
     public function user() : BelongsTo {
         return $this->belongsTo(User::class,'user_id');
     }

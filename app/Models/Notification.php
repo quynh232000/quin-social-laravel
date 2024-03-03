@@ -11,6 +11,7 @@ class Notification extends Model
     use HasFactory;
     protected $fillable = [
         'type',
+        'from_user_id',
         'user_id',
         'message',
         'url',
@@ -18,5 +19,9 @@ class Notification extends Model
     ];
     public function user() : BelongsTo {
         return $this->belongsTo(User::class,'user_id');
+    }
+
+    public function fromuser() : BelongsTo {
+        return $this->belongsTo(User::class,'from_user_id');
     }
 }
